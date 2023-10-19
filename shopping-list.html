@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Book Shelf</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    
+    <script type="module" crossorigin src="/js_90_vndriy/assets/shopping-list-e6e60d2d.js"></script>
+    <link rel="modulepreload" crossorigin href="/js_90_vndriy/assets/header-35398007.js">
+    <link rel="stylesheet" href="/js_90_vndriy/assets/header-fdc2e0b0.css">
+  </head>
+  <body class="shop-body">
+    <!-- HEADER  -->
+    <header>
+  <div class="container header-cont">
+    <!-- ⬅️ left-side  -->
+    <nav class="header-nav">
+      <a class="logo-block" href="./index.html">
+        <svg width="28" height="28">
+          <use href="/js_90_vndriy/assets/icons-c5e4cbfa.svg#icon-logo"></use>
+        </svg>
+        <span class="logo-style">Bookshelf</span></a
+      >
+      <!-- 💻 tablet + desktop -->
+      <!-- <div class="menu-nav"> -->
+      <ul class="menu-nav display-none">
+        <li>
+          <a href="./index.html" class="nav-home" id="home-link"
+            ><span class="logo-block">Home</span></a
+          >
+        </li>
+        <li class="shop-li">
+          <a href="./shopping-list.html" class="nav-shopli" id="shopping-link"
+            >Shopping List
+            <svg width="20" height="20" id="svgmenu" class="shop-svg">
+              <use href="/js_90_vndriy/assets/icons-c5e4cbfa.svg#icon-sl"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <!-- </div> -->
+    </nav>
+    <!-- ⬅️ left-side  -->
+
+    <!-- 💻 /tablet + desktop -->
+    <!-- right-side ➡️ -->
+
+    <!-- SWITCHERRRRRRRR -->
+    <div class="right-block">
+      <!-- SWITCHERRRRRRRR -->
+      <input type="checkbox" id="darkmode-toggle" />
+      <label for="darkmode-toggle"></label>
+      <!-- SWITCHERRRRRRRR -->
+      <!-- BUTTONNNNNNNNNNNN -->
+      <div class="menu-btn mob-menu-display">
+        <div class="menu-btn__burger"></div>
+      </div>
+      <!-- BUTTONNNNNNNNNNNN -->
+      <!-- <div class="stephan">Stephan</div> -->
+    </div>
+    <!-- stephan -->
+
+    <!-- stephan  -->
+    <!-- /switcher  -->
+  </div>
+  <!-- КІНЕЦЬ ХЕДЕРУ -->
+</header>
+<div class="hamb-menu">
+  <div class="mob-menu-container">
+    <ul class="menu-hamb-nav">
+      <li>
+        <a href="./index.html" class="mobmenu-home" id="home-link">Home</a>
+      </li>
+      <li>
+        <a href="./shopping-list.html" class="mobmenu-shop" id="shopping-link"
+          >Shopping List
+          <svg width="20" height="20" class="svg-mob">
+            <use href="/js_90_vndriy/assets/icons-c5e4cbfa.svg#icon-sl"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+    <section class="shop-list-wrap container">
+      <!-- FUNDS  -->
+      <div class="support">
+  <div class="support-card js-support-card">
+    <div class="support-title">
+      <h2 class="support-title-name">Support Ukraine</h2>
+      <svg class="icon-ukraine" width="20" height="32">
+        <use href="/js_90_vndriy/assets/icons-1caf3678.svg#icon-Ukr"></use>
+      </svg>
+    </div>
+
+    <div class="support-list js-support-list"></div>
+      <button type="button" class="scroll-list-button">
+        <svg class="button-scroll-ok" width="22" height="32">
+          <use href="/js_90_vndriy/assets/icons-1caf3678.svg#icon-ok"></use>
+        </svg>
+      </button>
+    <!-- <button type="button" class="button-up">
+      <svg class="button-scroll-up" width="22" height="32">
+        <use href="./img/supportUkraine/icons.svg#up-button"></use>
+      </svg>
+    </button> -->
+  </div>
+</div>
+
+      <!-- EMPTY LIST CAP -->
+
+      <!-- BOOKMURCKUP -->
+      <div class="container-general">
+  <h1 class="shop-list-title">Shopping <span>List</span></h1>
+
+
+  <!-- <div class="body"></div> -->
+ <ul class="body dark-tema"></ul>
+  <!-- <ul class="shopippping-list"></ul> -->
+  <div class="empty-basket-wrap ">
+    <div class="cap-wrap">
+      <p class="cap-text">
+        This page is empty, add some books and proceed to order.
+      </p>
+      <picture class="empty-list-pic">
+        <source
+          srcset="/js_90_vndriy/assets/empty-page-8a16ad0f.png 1x, /js_90_vndriy/assets/empty-page-2x-c166d62f.png 2x"
+          media="(min-width:704px)"
+        />
+        <source
+          srcset="/js_90_vndriy/assets/empty-page-mob-729edc7b.png 1x, /js_90_vndriy/assets/empty-page-mob@2x-0d91fc9b.png 2x"
+          media="(max-width:703px)"
+        />
+        <img src="/js_90_vndriy/assets/empty-page-8a16ad0f.png" alt="books icon" />
+      </picture>
+    </div>
+  </div>
+</div>
+
+      <div class="backdrop is-hidden">
+  <div id="modal" class="modal-book-selection">
+    <div class="modal-book-content">
+      <button class="close-btn" data-modal-close>
+        <i class="fa-solid fa-xmark close-btn-icon"></i>
+      </button>
+
+      <div class="modal-book-content-wrap"></div>
+    </div>
+    <button class="modal-book-shopping-list-btn">Add to shopping list</button>
+    <p class="modal-book-shopping-list-btn-shopping-list-message message-hide">
+      Congratulations! You have added the book to the shopping list. To delete,
+      press the button "Remove from the shopping list".
+    </p>
+  </div>
+</div>
+
+    </section>
+
+    
+    
+  </body>
+</html>
